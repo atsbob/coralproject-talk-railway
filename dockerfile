@@ -1,0 +1,4 @@
+FROM coralproject/talk:9.11.2
+ENV PORT=5000
+ENV TRUST_PROXY=1
+EXPOSE 5000
